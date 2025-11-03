@@ -1,18 +1,21 @@
-A lightweight project experimenting with Corrective RAG (Retrieval-Augmented Generation) to improve response accuracy by combining document retrieval with feedback-based refinement.
+# CorrectiveRagProject
 
-🔍 Features
-- Retrieves relevant context from a knowledge source
-- Generates AI responses using retrieved data
-- Applies corrective logic to refine or fix incorrect outputs
+A minimal implementation of **Corrective RAG (Retrieval-Augmented Generation)** to enhance response reliability by combining document retrieval with feedback-based corrections.
 
-🚀 Tech Stack
-- Python
-- LangChain / OpenAI API
-- Vector Database (ör. FAISS, Pinecone)
+## 🔍 Features
+- Retrieves relevant context from a document store  
+- Generates responses using LLMs  
+- Applies corrective logic to fix or refine inaccurate outputs  
 
-▶️ How to Run
+## 🚀 Tech Stack
+- Python  
+- LangChain / OpenAI API  
+- Vector Database (e.g., FAISS, Pinecone)
+
+## ▶️ How to Run
+
 # Install dependencies
 pip install -r requirements.txt
 
-# Start the pipeline
+# Run the pipeline
 python src/main.py
