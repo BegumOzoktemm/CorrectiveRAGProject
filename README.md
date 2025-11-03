@@ -1,21 +1,11 @@
-# CorrectiveRagProject
+.env Contents
 
-A minimal implementation of **Corrective RAG (Retrieval-Augmented Generation)** to enhance response reliability by combining document retrieval with feedback-based corrections.
+OPENAI_API_KEY=
 
-## 🔍 Features
-- Retrieves relevant context from a document store  
-- Generates responses using LLMs  
-- Applies corrective logic to fix or refine inaccurate outputs  
+LANGCHAIN_API_KEY=
 
-## 🚀 Tech Stack
-- Python  
-- LangChain / OpenAI API  
-- Vector Database (e.g., FAISS, Pinecone)
+LANGCHAIN_TRACING_V2=
 
-## ▶️ How to Run
+LANGCHAIN_PROJECT=
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the pipeline
-python src/main.py
+TAVILY_API_KEY=
